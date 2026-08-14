@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Byte-code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+
+# Vector Databases & Local Storage (Common in RAG systems)
+chroma_db/
+chromadb/
+faiss_index/
+.chroma/
+*.db
+*.sqlite3
+
+# Log & Output Files
+*.log
+logs/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
