@@ -27,7 +27,6 @@ faiss_index/
 logs/
 
 # IDE & Editor Settings
-.vscode/
 .idea/
 *.swp
 
@@ -35,3 +34,7 @@ logs/
 .DS_Store
 .AppleDouble
 .LSOverride
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
