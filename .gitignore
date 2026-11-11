@@ -10,8 +10,6 @@ __pycache__/
 *$py.class
 
 # Environment Variables & Secrets
-.env
-.env.local
 *.env
 
 # Vector Databases & Local Storage (Common in RAG systems)
@@ -38,3 +36,5 @@ logs/
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
+node_modules
